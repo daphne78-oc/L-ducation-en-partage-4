@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>L’Éducation en Partage</title>
+
+  <!-- Police Schoolbell -->
+  <link href="https://fonts.googleapis.com/css2?family=Schoolbell&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <nav class="menu">
+      <div class="logo">L’Éducation en Partage</div>
+      <ul class="nav-list">
+        <li class="nav-item dropdown">
+          <button class="dropbtn">Catégories ▾</button>
+          <div class="dropdown-content">
+            <a href="#" data-filter="all">Tous</a>
+            <a href="#" data-filter="articles">Articles</a>
+            <a href="#" data-filter="citations">Citations</a>
+            <a href="#" data-filter="images">Images</a>
+            <a href="#" data-filter="lien">Lien</a>
+            <a href="#" data-filter="apropos">À propos</a>
+          </div>
+        </li>
+        <li class="nav-item"><a href="#board">Interaction</a></li>
+        <li class="nav-item"><a href="#apropos">À propos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1 class="site-title">L’Éducation en Partage</h1>
+      <p class="intro">
+        Ce site est un espace de ressources et d'échanges pour les enseignants, formateurs et passionnés de pédagogie.
+        Tu y trouveras des articles pratiques, des réflexions théoriques, des images inspirantes et un espace d'échange
+        où toute la communauté peut poser des questions et partager des expériences.
+      </p>
+    </section>
+
+    <section class="grid" id="content-grid">
+      <!-- Article 1: Différenciation pédagogique -->
+      <article class="card item articles" data-id="art-diff">
+        <h2 class="card-title">Différenciation pédagogique</h2>
+        <div class="card-body">
+          <img src="https://www.bing.com/images/search?view=detailV2&ccid=BCifDnBO&id=DFA19A00111351CA7D52050802C0F0E15E092231&thid=OIP.BCifDnBORqVvaVMRIWMlzQHaE8&mediaurl=https%3a%2f%2fimg.le-dictionnaire.com%2fclasse-ecole.jpg" alt="Classe" class="card-img"/>
+          <p class="excerpt">
+            La différenciation pédagogique consiste à adapter l'enseignement aux besoins, aux niveaux et aux rythmes
+            des élèves... (cliquez pour lire la suite)
+          </p>
+        </div>
+      </article>
+
+      <!-- Article 2: Pédagogies alternatives -->
+      <article class="card item articles" data-id="art-alt">
+        <h2 class="card-title">Pédagogies alternatives : Montessori, Freinet, Steiner-Waldorf</h2>
+        <div class="card-body">
+          <img src="https://www.septcollines.com/wp-content/uploads/2023/05/enseignant-comment-encourager-vos-eleves-a-progresser.jpg" alt="Enseignant" class="card-img"/>
+          <p class="excerpt">
+            Les pédagogies alternatives regroupent des approches centrées sur l'enfant, l'activité et le respect
+            du rythme individuel... (cliquez pour lire la suite)
+          </p>
+        </div>
+      </article>
+
+      <!-- Article 3: Didactique de l'enseignant -->
+      <article class="card item articles" data-id="art-dida">
+        <h2 class="card-title">Didactique de l'enseignant</h2>
+        <div class="card-body">
+          <p class="excerpt">
+            La didactique s'intéresse aux méthodes et contenus d'enseignement: comment enseigner, pour quoi, et dans
+            quelles circonstances... (cliquez pour lire la suite)
+          </p>
+        </div>
+      </article>
+
+      <!-- Article 4: Pourquoi être professeur -->
+      <article class="card item articles" data-id="art-pourquoi">
+        <h2 class="card-title">Pourquoi devenir professeur ? Compétences et finalités</h2>
+        <div class="card-body">
+          <p class="excerpt">
+            Choisir d'être professeur, c'est choisir une profession d'engagement. Ce texte explore les compétences
+            nécessaires, les ambitions et le sens du métier... (cliquez pour lire la suite)
+          </p>
+        </div>
+      </article>
+
+      <!-- Citations (4) -->
+      <section class="card item citations" data-id="cit-1">
+        <h3 class="card-title">Citation 1</h3>
+        <div class="card-body">
+          <p class="quote"><em>« L'éducation n'est pas la préparation à la vie ; l'éducation est la vie elle-même. » — John Dewey</em></p>
+        </div>
+      </section>
+
+      <section class="card item citations" data-id="cit-2">
+        <h3 class="card-title">Citation 2</h3>
+        <div class="card-body">
+          <p class="quote"><em>« Enseigner, ce n'est pas remplir un seau, c'est allumer un feu. » — William Butler Yeats</em></p>
+        </div>
+      </section>
+
+      <section class="card item citations" data-id="cit-3">
+        <h3 class="card-title">Citation 3</h3>
+        <div class="card-body">
+          <p class="quote"><em>« Le plus grand signe de réussite pour un enseignant… est de pouvoir dire : ‘Les enfants travaillent comme si je n’existais pas.’ » — Maria Montessori</em></p>
+        </div>
+      </section>
+
+      <section class="card item citations" data-id="cit-4">
+        <h3 class="card-title">Citation 4</h3>
+        <div class="card-body">
+          <p class="quote"><em>« L’éducation est l’arme la plus puissante qu’on puisse utiliser pour changer le monde. » — Nelson Mandela</em></p>
+        </div>
+      </section>
+
+      <!-- Lien vers devenirenseignant.gouv.fr -->
+      <div class="card item lien" data-id="lien-devenir">
+        <h3 class="card-title">Être professeur des écoles | devenirenseignant.gouv.fr</h3>
+        <div class="card-body">
+          <p>
+            Retrouvez l'information officielle pour devenir professeur des écoles. Le site présente les conditions
+            d'accès, les concours, les formations, les modalités de recrutement et les parcours de professionnalisation.
+          </p>
+          <p>
+            Détails importants :
+          </p>
+          <ul>
+            <li>Conditions d’accès au concours : diplômes requis et équivalences.</li>
+            <li>Organisation des concours et dates importantes (inscriptions, épreuves écrites et orales).</li>
+            <li>Parcours de formation initiale et accompagnement en poste (formations continues).</li>
+            <li>Rémunération, statuts et horaires indicatifs, ainsi que parcours de carrière.</li>
+            <li>Liens vers ressources et contacts académiques pour renseignements locaux.</li>
+            <li>Informations sur la mobilité, substitutions et détachements.</li>
+          </ul>
+          <p>
+            Pour accéder au portail officiel : <a href="https://devenirenseignant.gouv.fr" target="_blank" rel="noopener">devenirenseignant.gouv.fr</a>
+          </p>
+        </div>
+      </div>
+
+      <!-- Images section (2 images) -->
+      <div class="card item images" data-id="img-1">
+        <h3 class="card-title">Image : Classe</h3>
+        <div class="card-body">
+          <img src="https://www.bing.com/images/search?view=detailV2&ccid=BCifDnBO&id=DFA19A00111351CA7D52050802C0F0E15E092231&thid=OIP.BCifDnBORqVvaVMRIWMlzQHaE8&mediaurl=https%3a%2f%2fimg.le-dictionnaire.com%2fclasse-ecole.jpg" alt="Classe" class="card-img"/>
+          <p class="caption">Photo de classe — source : url fournie</p>
+        </div>
+      </div>
+
+      <div class="card item images" data-id="img-2">
+        <h3 class="card-title">Image : Enseignant</h3>
+        <div class="card-body">
+          <img src="https://www.septcollines.com/wp-content/uploads/2023/05/enseignant-comment-encourager-vos-eleves-a-progresser.jpg" alt="Enseignant" class="card-img"/>
+          <p class="caption">Photo d'enseignant — source : url fournie</p>
+        </div>
+      </div>
+
+      <!-- À propos -->
+      <div class="card item apropos" id="apropos">
+        <h3 class="card-title">À propos</h3>
+        <div class="card-body">
+          <p>
+            Ce site vise à rassembler des ressources pédagogiques et à créer un espace d'échange communautaire.
+            Les articles sont rédigés pour soutenir la pratique enseignante, proposer des pistes concrètes et
+            diffuser des approches variées.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interaction / Message Board -->
+    <section class="board" id="board">
+      <h2>Interaction — Espace public</h2>
+      <p class="board-desc">
+        Cette section permet à toute personne visitant le site de publier un message public visible par tous.
+        But : favoriser le partage d'expérience, poser des questions, répondre et construire une communauté.
+      </p>
+
+      <form id="message-form">
+        <input type="text" id="pseudo" placeholder="Votre pseudo" required />
+        <textarea id="message" placeholder="Écrire un message public..." required></textarea>
+        <button type="submit">Envoyer</button>
+        <button type="button" id="clear-board">Effacer localement</button>
+      </form>
+
+      <div id="messages" class="messages"></div>
+
+      <p class="note">
+        Note : pour un espace d'échange réellement mondial et persistant, il faudra connecter ce formulaire à
+        un backend (ex. Firebase, Supabase, ou un serveur avec base de données). Le code fourni stocke les messages
+        localement dans le navigateur (localStorage) pour permettre une démonstration fonctionnelle immédiate.
+      </p>
+    </section>
+  </main>
+
+  <!-- Modal pour afficher contenu complet des articles / citations / images -->
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-content" role="dialog" aria-modal="true">
+      <button id="modal-close" class="modal-close" aria-label="Fermer">✕</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>© L’Éducation en Partage — Ressources pédagogiques et espace d’échange</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
